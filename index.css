@@ -4,3 +4,21 @@
     box-sizing: border-box;
 }
 
+.top-bar {
+    display: flex;
+    justify-content: space-around;
+}
+
+.top-bar a {
+    display: flex;
+    text-decoration: none; 
+    align-items: center;
+    font-size: 1rem; 
+}
+
+.brand {
+    width: 6vw;
+}
+/* .navbar a {
+    padding: 0 3rem;  
+} */
