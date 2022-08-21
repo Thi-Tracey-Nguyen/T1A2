@@ -185,3 +185,23 @@ p {
 .overlay p {
     font-size: 1.5rem;
 }
+
+/* Blogs */
+.h-blg-card {
+    text-align: center; 
+}
+
+.h-blg-card p {
+    margin: 1rem;
+}
+
+@media screen (min-width: 800px) {
+
+    .h-blg-container {
+        display: flex; 
+        
+    }
+    .h-blg-card {
+        width: 40%;
+    }
+}
