@@ -43,7 +43,8 @@ header a {
     width: 6vw;
 }
 
-/* Main */
+
+/* Heading */
 main {
     text-align: center;
     display: flex; 
@@ -55,6 +56,13 @@ main {
     border-radius: 50%; 
     object-fit: cover; 
     margin-top: -5rem;
+}
+
+/* Social links */
+
+.social-links img {
+    width: 8vw;
+    display: inline; 
 }
 
 /* About Me */
@@ -78,7 +86,14 @@ main {
 
 .abt-container {
     display: flex; 
-    justify-content: flex-end;
+    flex-direction: column; 
+    align-items: flex-end;
+}
+.resume {
+    width: 20vw;
+    height: 3vh;
+    background: rgb(246, 247, 244); 
+    text-align: center;
 }
 
 /* Footer */
@@ -105,12 +120,38 @@ p {
     font-size: 2rem; 
 }
 
+@keyframes slide {
+    0% {
+        transform: translateY(100%); 
+    }
+    100% {
+        transform: translateY(0%);
+    }
+}
+
 .projects article {
     width: 85vw;
-    border: 1px solid blue; 
     border-radius: 1%; 
     display: flex; 
     flex-direction: column; 
     padding: 1rem; 
-    margin: 1.5rem 0; 
+}
+.card-top:hover .overlay {
+    transform: translateY(0%);
+}
+
+.card-top:hover .overlay {
+    animation: slide 1.5s both;
+}
+
+.overlay {
+    background:rgba(178, 181, 181, 0.5);
+    color: rgb(150, 19, 19); 
+    min-height: 20vh; 
+    position: relative;
+    transform: translateY(100%); 
+}
+
+.card-top {
+    background: url("https://place-puppy.com/1000x1000") no-repeat center;
 }
