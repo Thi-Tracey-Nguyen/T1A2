@@ -36,7 +36,7 @@ p {
 header a {
     text-decoration: none; 
     align-items: center;
-    font-size: 4em; 
+    font-size: 2rem; 
 }
 
 .brand {
@@ -106,102 +106,6 @@ footer {
     height: 25vh; 
 }
 /* Projects */
-.projects h3 {
-    font-size: 2em; 
-}
-.pjt-container{
-    display: flex; 
-    flex-wrap: wrap;
-    background: #eeeae4;
-}
 
-p {
-    font-size: 2rem; 
-}
 
-@keyframes slide {
-    0% {
-        transform: translateY(100%); 
-    }
-    100% {
-        transform: translateY(0%);
-    }
-}
 
-/* Projects */
-.card-top:hover .overlay {
-    transform: translateY(0%);
-}
-
-.card-top:hover .overlay {
-    animation: slide 1s both;
-}
-
-.pjt-container {
-    display: flex; 
-    justify-content: space-around;
-}
-
-.overlay {
-    display: flex; 
-    flex-direction: column;
-    align-items: flex-start;
-    height: 40%;
-    width: 100%;
-    background:rgba(178, 181, 181, 0.5);
-    color: rgb(150, 19, 19); 
-    position: relative;
-    transform: translateY(100%); 
-}
-
-.card-top {
-    background: url("https://place-puppy.com/2200x2200") no-repeat center;
-    overflow: hidden;
-    display: flex;
-    align-items: flex-end;
-    height: 30vh;
-    width: 25vw;
-
-}
-.links {
-    display: flex; 
-    justify-content: flex-end; 
-    width: 100%;
-
-}
-
-.code {
-    width: 2.5rem;
-    margin: .25rem;
-}
-
-.card {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    box-shadow: 1px 1px 4px grey;
-}
-
-.overlay p {
-    font-size: 1.5rem;
-}
-
-/* Blogs */
-.h-blg-card {
-    text-align: center; 
-}
-
-.h-blg-card p {
-    margin: 1rem;
-}
-
-@media screen (min-width: 800px) {
-
-    .h-blg-container {
-        display: flex; 
-        
-    }
-    .h-blg-card {
-        width: 40%;
-    }
-}
