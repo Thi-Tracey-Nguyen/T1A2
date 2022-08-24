@@ -30,13 +30,12 @@
     grid-row: 2/4;
 }
 
-
 .info {
     text-align: center;
     color: #e4f1f1;
 }
 
-.info h1 {
+.info h2 {
     margin-top: 1rem;
 }
 
@@ -105,20 +104,19 @@ main {
     margin: 5rem 0;
 }
 
+/* Footer */
+/* footer {
+    background:linear-gradient(#12003d,#1d0160);
+    color: #fff;
+    line-height: 2em;
+    margin-top: 20px;
+    padding: 10px 0 0 0;
+    width: 100%;
+    text-align: center;
+} */
 
 /*for tablets */
 @media screen and (min-width: 768px) {
-    /* header {
-        display: flex; 
-        flex-direction: row;
-        justify-content: space-between;
-        padding: 0.5rem;
-    }
-
-    nav > a {
-        font-size: 1.5rem;
-        letter-spacing: 0.5px;
-    } */
 
     .intro {
         line-height: 2rem;
@@ -179,5 +177,4 @@ main {
     .journey {
         width: 40vw;
     }
-
 }
