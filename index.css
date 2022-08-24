@@ -1,5 +1,6 @@
 @import url('global.css');
 
+/* Header */
 .logo {
     width: 10vw;
 }
@@ -33,16 +34,14 @@ nav a, .logo {
     grid-column: 2;
 }
 
-
-
 .hero {
     display: grid;
     grid-template-columns: repeat(3, 1fr); 
 }
 
 .info {
-    background: #514f4f; 
-    height: 30vh;
+    background: #12003d; 
+    height: 20vh;
     width: 100vw;
     grid-column: 1/3; 
     grid-row: 1/3;
@@ -62,24 +61,75 @@ nav a, .logo {
     margin-top: 1rem;
 }
 
-.abt {
+main {
     width: 85%;
     margin: auto;
 }
 
-.abt h3 {
-    margin-bottom: 1rem;
+/* Intro */
+
+.intro {
+    margin: 1rem 0; 
+    font-family: 'Raleway', sans-serif;
+    font-style: italic;
+    font-weight: normal; 
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    line-height: 1.6rem;
+
+}
+
+#test {
+    color: blue;
+}
+
+/* Skills */
+.skill-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.top, .bottom {
+    width: 70vw;
+    display: flex;
+    justify-content: space-between;
+}   
+.skill {
+    width: 12vw; 
+    height: 10vh;
+    color: #12003d;
+}
+
+/* Journey */
+
+.journey-info p {
+    line-height: 1.6rem;
+    margin: 1rem 0;
+}
+
+.journey h3 {
+    margin: 1rem 0;
+}
+
+/* Resume */
+.resume {
+    text-decoration: none; 
+    color: white;
+    background: #0f0031;
+    padding: 0.5rem;
+    border-radius: 10%;
 }
 
 /* Footer */
 footer {
-    background-color:#514f4f;
+    background-color:#0f0031;
     color: #fff;
     line-height: 2em;
     margin-top: 20px;
     padding: 10px 0 0 0;
-    position: fixed;
-    bottom: 0;
+    /* position: fixed;
+    bottom: 0; */
     width: 100%;
     text-align: center;
 }
