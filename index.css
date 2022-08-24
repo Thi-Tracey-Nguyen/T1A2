@@ -105,7 +105,10 @@ main {
     border-radius: 10%;
     margin: 5rem 0;
 }
-
+/* Footer over-ride*/
+footer {
+    margin-top: 4rem;
+}
 
 /*for tablets */
 @media screen and (min-width: 768px) {
