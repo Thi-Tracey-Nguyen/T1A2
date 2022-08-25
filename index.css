@@ -82,7 +82,7 @@ main {
     width: 12vw; 
     max-width: 70px;
     height: 10vh;
-    color: #12003d;
+    filter: invert(6%) sepia(61%) saturate(5696%) hue-rotate(262deg) brightness(77%) contrast(133%);
 }
 
 /* Journey */
