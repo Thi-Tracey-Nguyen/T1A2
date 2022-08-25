@@ -60,11 +60,6 @@ main {
     text-align: center;
 }
 
-#test {
-    fill: blue;
-    background-color: blue; 
-}
-
 /* Skills */
 .skill-container {
     margin: 2rem 0;
