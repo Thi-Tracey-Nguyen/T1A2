@@ -40,7 +40,7 @@ Sitemap made using Balsamiq Cloud
 ##### Blog post format #2. 
 ![blog post 1](images/screenshots/screencapture-thi-nguyen-portfolio-netlify-app-blog-post2-html-2022-08-27-07_24_39.png)
 
-##### Coming Soon page to link projects to.
+##### Coming Soon page to link projects.
 ![coming soon](images/screenshots/screencapture-thi-nguyen-portfolio-netlify-app-coming-soon-html-2022-08-27-08_41_59.png)
 
 
