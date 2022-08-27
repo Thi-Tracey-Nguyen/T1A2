@@ -20,28 +20,29 @@ My favourite feature of the page is the use of Grid, it allows each "card" to be
 Sitemap made using Balsamiq Cloud
 
 ## Screenshots
+##### Home page has information about skills, experience and link to resume.
 
 ![home/landing page/about me](images/screenshots/screencapture-thi-nguyen-portfolio-netlify-app-index-html-2022-08-27-07_14_03.png)
-Home page has information about skills, experience and link to resume.
 
+##### Project page with 4 made-up projects. Each project card is linked to "Coming Soon" page.
 ![projects page](images/screenshots/screencapture-thi-nguyen-portfolio-netlify-app-projects-html-2022-08-27-07_16_25.png)
-Project page with 4 made-up projects. Each project card is linked to "Coming Soon" page.
 
+##### Blogs page with 5 blogs. Each card has information such as category, title, author and date published. Blog card are linked to respective pages.
 ![blogs](images/screenshots/screencapture-thi-nguyen-portfolio-netlify-app-blogs-html-2022-08-27-07_17_22.png)
-Blogs page with 5 blogs. Each card has information such as category, title, author and date published. Blog card are linked to respective pages. 
 
+##### Get In Touch page with links to Twitter, GitHub and LinkedIn. Icons are linked to respective pages.
 ![get in touch](images/screenshots/screencapture-thi-nguyen-portfolio-netlify-app-get-in-touch-html-2022-08-27-07_17_08.png
 )
-Get In Touch page with links to Twitter, GitHub and LinkedIn. Icons are linked to respective pages. 
 
+##### Blog post format #1. 
 ![blog post 1](images/screenshots/screencapture-thi-nguyen-portfolio-netlify-app-blog-post1-html-2022-08-27-07_25_27.png)
-Blog post format #1. 
 
+##### Blog post format #2. 
 ![blog post 1](images/screenshots/screencapture-thi-nguyen-portfolio-netlify-app-blog-post2-html-2022-08-27-07_24_39.png)
-Blog post format #2. 
 
+##### Coming Soon page to link projects to.
 ![coming soon](images/screenshots/screencapture-thi-nguyen-portfolio-netlify-app-coming-soon-html-2022-08-27-08_41_59.png)
-Coming Soon page to link projects to.
+
 
 ## Target Audience
 This website is made for potential employers and recruiters in the IT field.  
