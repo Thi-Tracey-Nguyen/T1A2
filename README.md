@@ -1,4 +1,3 @@
-# T1A2
 # Thi Nguyen's T1A2
 
 [Link to website](https://thi-nguyen-portfolio.netlify.app)  
@@ -23,12 +22,26 @@ Sitemap made using Balsamiq Cloud
 ## Screenshots
 
 ![home/landing page/about me](images/screenshots/screencapture-thi-nguyen-portfolio-netlify-app-index-html-2022-08-27-07_14_03.png)
-Home page has information about skills, experience and link to resume. 
+Home page has information about skills, experience and link to resume.
 
-<figure>
-    <img src="images/screenshot/screencapture-thi-nguyen-portfolio-netlify-app-index-html-2022-08-27-07_14_03.png">
-    <figcaption>Home page</figurecaption>
-</figure>
+![projects page](images/screenshots/screencapture-thi-nguyen-portfolio-netlify-app-projects-html-2022-08-27-07_16_25.png)
+Project page with 4 made-up projects. Each project card is linked to "Coming Soon" page.
+
+![blogs](images/screenshots/screencapture-thi-nguyen-portfolio-netlify-app-blogs-html-2022-08-27-07_17_22.png)
+Blogs page with 5 blogs. Each card has information such as category, title, author and date published. Blog card are linked to respective pages. 
+
+![get in touch](images/screenshots/screencapture-thi-nguyen-portfolio-netlify-app-get-in-touch-html-2022-08-27-07_17_08.png
+)
+Get In Touch page with links to Twitter, GitHub and LinkedIn. Icons are linked to respective pages. 
+
+![blog post 1](images/screenshots/screencapture-thi-nguyen-portfolio-netlify-app-blog-post1-html-2022-08-27-07_25_27.png)
+Blog post format #1. 
+
+![blog post 1](images/screenshots/screencapture-thi-nguyen-portfolio-netlify-app-blog-post2-html-2022-08-27-07_24_39.png)
+Blog post format #2. 
+
+![coming soon](images/screenshots/screencapture-thi-nguyen-portfolio-netlify-app-coming-soon-html-2022-08-27-08_41_59.png)
+Coming Soon page to link projects to.
 
 ## Target Audience
 This website is made for potential employers and recruiters in the IT field.  
