@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Raleway:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/* Margins for the whole page */
+* {
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* Background color for the whole page */
+body { 
+    background: #e4f1f1;
+}
+
+/* Font sizes */
+h1 {
+    font-size: 4em;
+}
+
+h2 {
+    font-size: 2.5em;
+}
+
+h3 {
+    font-size: 1.5em; 
+}
+
+h4 {
+    font-size: 1.2em;
+}
+
+p {
+    font-size: 1rem; 
+}
+
+
+
+

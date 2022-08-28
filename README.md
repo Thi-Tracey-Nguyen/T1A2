@@ -2,6 +2,7 @@
 
 [Link to website](https://thi-nguyen-portfolio.netlify.app)  
 [Link to Github repository](https://github.com/Thi-Tracey-Nguyen/T1A2)  
+[Link to presentation](https://www.youtube.com/watch?v=H8NW5toO4_U)
 
 ## Purpose
 This porfolio was created to practice my knowledge of HTML and CSS. It will be updated later as I learn new things to showcase my skills and projects. 
@@ -29,7 +30,7 @@ Sitemap made using Balsamiq Cloud
 ![home/landing page/about me](docs/resume.png)
 
 ##### Project page with 4 made-up projects. Each project card is linked to "Coming Soon" page.
-![projects page](docs/screenshots/projects.png)
+![projects page](docs/projects.png)
 
 ##### Blogs page with 5 blogs. Each card has information such as category, title, author and date published. Blog card are linked to respective pages.
 ![blogs](docs/blogs.png)

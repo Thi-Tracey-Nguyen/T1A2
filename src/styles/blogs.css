@@ -1,0 +1,118 @@
+@import url('global.css');
+@import url('header-footer.css');
+
+/* Font Settings */
+p, h1, h3, h2, h4 {
+    font-family: 'Raleway', sans-serif;
+    color: white; 
+    text-shadow: 2px 2px 1px black;
+}
+
+/* Main - common */
+.container {
+    margin: 1rem;
+}
+
+.blog h3 {
+    font-size: 2rem;
+}
+
+.blog > a {
+    text-decoration: none;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Main - individual */
+.one {
+    background: url('../images/blogs/michal-czyz-ALM7RNZuDH8-unsplash.jpg');
+    background-position: center; 
+}
+
+.two {
+    background: url('../images/blogs/thisisengineering-raeng-sbVu5zitZt0-unsplash.jpg');
+    background-position: center top;
+}
+
+.three {
+    background: url('../images/blogs/possessed-photography-g29arbbvPjo-unsplash.jpg');
+    background-position: center; 
+}
+
+.four {
+    background: url('../images/blogs/rabih-shasha-tTv6Lo5uQVQ-unsplash.jpg');
+    background-position: center; 
+}
+
+.five {
+    background: url('../images/blogs/luca-bravo-zAjdgNXsMeg-unsplash.jpg');
+    background-position: center; 
+}
+
+/* Diplay rules */
+.blog {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    box-shadow: 3px 3px 10px grey;
+    border-radius: 1em;
+    padding: 1rem;
+    margin: 1rem;
+    min-height: 250px;
+}
+
+/* For tablets */
+@media screen and (min-width: 500px) {
+    .container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .two {
+        grid-column: 1/2;
+        grid-row: 1/3;
+        display: flex;
+        order: -1; 
+    }
+
+}
+
+/* For desktops */
+@media screen and (min-width: 800px) {
+    .container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .one {
+        grid-column: 1;
+        background-position: right top;
+    }
+
+    .two {
+        grid-column: 2/3;
+        grid-row: 1/3;
+        display: flex;
+        justify-content: center;
+    }
+    .three {
+        grid-row: 2; 
+        background-position: right;
+    }
+
+    .four {
+        grid-column: 3;
+        background-position: right;
+    }
+
+    .five {
+        grid-column: 3;
+        grid-row: 2;
+        background-position: right bottom;
+    }
+
+}

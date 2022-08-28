@@ -1,0 +1,132 @@
+@import url('global.css');
+
+/* Common styles */
+body {
+    line-height: 1.5em;
+}
+
+/* Hero */
+.hero {
+    background-size: cover;
+    height: 48vw;
+
+}
+
+.overlay {
+    background: rgba(4, 2, 2, 0.198);
+    height: 48vw;
+    color: white;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+/* Author */
+.author>img {
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+    margin: 1rem auto;
+}
+
+.author {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 1rem;
+}
+
+/* Main */
+main {
+    width: 90%;
+    margin: auto;
+}
+
+/* Article styles */
+article > img {
+    width: 90vw;
+    margin: 1rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+article {
+    margin: 1rem 0;
+}
+
+article>h4 {
+    margin: 2rem 0 0.5rem 0;
+}
+
+.blurb::first-letter {
+    font-size: 2rem;
+    font-family: cursive;
+}
+
+.credit {
+    font-size: 0.7rem;
+    font-style: italic;
+    text-align: center;
+}
+
+/* Highlight */
+.highlight {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    font-family: 'Courgette', cursive;
+    font-size: 2rem;
+    margin: 2rem 0;
+    padding: 3rem 0;
+    text-align: center;
+    line-height: 1em;
+}
+
+/* For tablets */
+@media screen and (min-width: 500px) {
+    .hero {
+        background-size: cover;
+        height: 25vh;
+    }
+
+    .overlay {
+        height: 25vh;
+    }
+
+    main {
+        width: 70vw;
+        margin: auto;
+    }
+
+    article > img {
+        width: 70vw;
+    }
+}
+
+/* For Tablets & desktops */
+@media screen and (min-width: 700px) {
+    .hero {
+        background-size: cover;
+        height: 35vh;
+    }
+
+    .overlay {
+        height: 35vh;
+    }
+
+    main {
+        width: 70vw;
+        margin: auto;
+    }
+
+    article>img {
+        width: 70vw;
+        margin: 1rem;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+}

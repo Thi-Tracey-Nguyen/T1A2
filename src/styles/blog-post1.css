@@ -1,0 +1,61 @@
+@import url('global.css');
+@import url('blog-post.css');
+@import url('header-footer.css');
+
+/* Main styles */
+main {
+    margin-bottom: 3rem;
+}
+
+/* Hero */
+.hero {
+    background: url('../images/blogs/jeremy-enns-1vrWiQvtxW8-unsplash.jpg') no-repeat center;
+}
+
+.overlay {
+    text-align: center;
+}
+
+.overlay p,
+h2,
+h5 {
+    text-shadow: 2px 2px 1px black;
+}
+
+/* Main - common */
+article>img {
+    width: 100%;
+    max-width: 900px; 
+    margin-top: 3rem; 
+}
+
+/* Span */
+span {
+    font-size: 1rem;
+    font-family: 'Courgette', cursive;
+}
+
+/* Margins */
+.one h4,
+.two h4 {
+    margin-top: 2rem;
+}
+
+/* For tablets */
+@media screen and (min-width: 500px) {
+    .hero {
+        background: url('../images/blogs/jeremy-enns-1vrWiQvtxW8-unsplash.jpg') no-repeat center;
+        background-size: cover;
+        height: 25vh;
+    }
+}
+
+/* For desktops */
+@media screen and (min-width: 700px) {
+    .hero {
+        background: url('../images/blogs/jeremy-enns-1vrWiQvtxW8-unsplash.jpg') no-repeat center;
+        background-size: cover;
+        height: 35vh;
+    }
+
+}

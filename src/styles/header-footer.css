@@ -1,0 +1,88 @@
+/* Header */
+.logo {
+    width: 15vw;
+    max-width: 80px;
+    transition: 1s;
+}
+
+.logo:hover {
+    transform: scale(1.2, 1.2);
+}
+
+header {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+nav > a {
+    display: inline-block;
+    margin: 0 0.2rem 1rem 0.2rem;
+    text-decoration: none;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    font-size: 4.5vw;
+    padding: 0 1rem;
+    font-weight: bold;
+}
+
+nav > a:hover {
+    transform: scale(1.1, 1.1);
+}
+
+nav a, .logo {
+    cursor: pointer;
+}
+
+/* Hero */
+.hero h1 {
+    color: #e4f1f1;
+    text-align: center;
+    background:linear-gradient(#59518c,#22118e);
+    padding: 3rem 0;
+}
+
+
+/* Footer */
+footer {
+    background:linear-gradient(#59518c,#22118e);
+    color: #fff;
+    line-height: 2em;
+    margin-top: 20px;
+    padding: 10px 0 0 0;
+    width: 100%;
+    text-align: center;
+    }
+
+.ftr-container {
+    display: flex;
+    justify-content: center;
+}
+
+.ftr-container img {
+    width: 32px;
+    height: 32px;
+    margin: 0 10px;
+    filter: invert(93%) sepia(81%) saturate(0%) hue-rotate(4deg) brightness(103%) contrast(102%) drop-shadow(1px 1px 1px rgb(45, 45, 45));
+}
+
+/* For tablets and desktops */
+@media screen and (min-width: 768px) {
+    header {
+        display: flex; 
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0.5rem;
+    }
+
+    nav > a {
+        font-size: 1.5rem;
+        letter-spacing: 0.5px;
+    }
+
+    .ftr-container, .copyright {
+        width: 80%;
+        margin: auto;
+    }
+}

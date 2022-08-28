@@ -1,0 +1,71 @@
+@import url('global.css');
+@import url('blog-post.css');
+@import url('header-footer.css');
+
+/* Margin */
+
+main {
+    margin-bottom: 3rem; 
+}
+
+/* Font */
+h1 {
+    color: white; 
+    text-shadow: 2px 2px 1px black;
+}
+
+/* Hero */
+.hero {
+    background: url('../images/blogs/danist-soh-cG_i_YmXsik-unsplash.jpg') no-repeat center;
+}
+.overlay {
+    text-align: center;
+}
+
+.overlay h2 {
+    font-size: clamp(1.5rem, 4vw, 4.5rem);
+}
+
+/* Improves readability */
+.overlay p, h2, h5 {
+    text-shadow: 2px 2px 1px black;
+}
+
+.overlay {
+    background: rgba(43, 42, 42, 0.323);
+}
+
+/* Main - common */
+article > img {
+    width: 100%;
+    max-width: 900px;
+    margin-top: 3rem; 
+}
+
+span {
+    font-size: 1rem;
+    font-family: 'Courgette', cursive;
+}
+
+.text {
+    margin-top: 1rem;
+}
+
+
+/* tablets */
+@media screen and (min-width: 500px) {
+    .hero {
+        background: url('../images/blogs/danist-soh-cG_i_YmXsik-unsplash.jpg') no-repeat center;
+        background-size: cover;
+        height: 25vh;
+    }
+}
+
+/* desktops */
+@media screen and (min-width: 700px) {
+    .hero {
+        background: url('../images/blogs/danist-soh-cG_i_YmXsik-unsplash.jpg') no-repeat center;
+        background-size: cover;
+        height: 35vh;
+    }
+}

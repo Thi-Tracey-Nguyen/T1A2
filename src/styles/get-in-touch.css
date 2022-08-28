@@ -1,0 +1,94 @@
+@import url('global.css');
+@import url('header-footer.css');
+
+/* General */
+body {
+    min-height: 100vh;
+    width: 100%; 
+}
+
+/* Hero */
+.hero h1 {
+    font-size: clamp(3rem, 4vw, 4rem)
+}
+
+
+/* Container box */
+.box h3 {
+    font-size: clamp(2rem, 7vw, 4rem);
+    margin-top: 1rem;
+}
+
+.box p {
+    font-size: clamp(1rem, 3vw, 2rem);
+    margin-bottom: 1rem;
+}
+
+.box {
+    width: 65vw;
+    height: 60vh;
+    background: rgb(224, 221, 221);
+    border-radius: 3rem; 
+    box-shadow: 0 5px 10px #410285;
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 3rem auto;
+    text-align: center; 
+}
+
+/* Social links container */
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Social logos */
+.container img {
+    filter: invert(13%) sepia(68%) saturate(4202%) hue-rotate(265deg) brightness(77%) contrast(120%) drop-shadow(1px 1px 1px rgb(45, 45, 45));;
+    height: clamp(5rem, 12vw, 10rem);
+    cursor: pointer;
+    margin: 1rem;
+}
+
+
+/* Footer */
+.ftr-container img {
+    height: 5vh;
+    width: 5vh;
+    padding:  0;
+    filter: grayscale(100%); 
+}
+
+footer{
+    margin-top: auto;
+}
+
+/* For tablets */
+@media screen and (min-width: 768px) {
+    .container {
+        flex-direction: row;
+    }
+
+    .container img {
+        margin: auto 1.5rem;
+    }
+
+    .box {
+        width: 65vw;
+        height: 30vh;
+        margin: 16vh auto;
+    }
+}
+
+/* For desktops */
+@media screen and (min-width: 1000px) {
+    .box {
+        width: 50vw;
+        height: 50vh;
+        margin: 5rem auto;
+    }
+}
+
+

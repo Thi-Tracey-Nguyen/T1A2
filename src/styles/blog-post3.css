@@ -1,0 +1,82 @@
+@import url('blog-post.css'); 
+@import url('header-footer.css');
+
+/* Margin */
+main {
+    margin-bottom: 3rem; 
+}
+
+/* Hero */
+.hero {
+    background: url('../images/blogs/leio-mclaren-WphP036Zuvg-unsplash.jpg') no-repeat center;
+    background-size: cover;
+}
+
+.overlay {
+    text-align: center;
+}
+
+.overlay h2 {
+    font-size: clamp(1.5rem, 4vw, 4.5rem);
+}
+
+/* Main - common */
+article > div {
+    margin: 1.5rem 0; 
+}
+
+article > div > h4 {
+    margin: 0.5rem 0; 
+}
+
+article > img {
+    width: 80%;
+}
+
+span {
+    font-size: 1rem;
+    font-family: 'Courgette', cursive;
+}
+
+.text {
+    margin-top: 1rem;
+}
+
+/* for tablets */
+@media screen and (min-width: 500px) {
+    .hero {
+        background: url('../images/blogs/leio-mclaren-WphP036Zuvg-unsplash.jpg') no-repeat center;
+        background-size: cover;
+        height: 25vh;
+    }
+}
+
+/* for desktops */
+@media screen and (min-width: 700px) {
+    .hero {
+        background: url('../images/blogs/leio-mclaren-WphP036Zuvg-unsplash.jpg') no-repeat center;
+        background-size: cover;
+        height: 35vh;
+    }
+
+}
+
+/* for wide-screen desktops */
+@media screen and (min-width: 900px) {
+    
+    .content {
+        width: 45vw;
+    }
+    
+    article > img {
+        width: 45vh;
+        max-height: 550px;
+        padding: 0; 
+        margin: 0 1.5rem 0 0;
+        float: left; 
+    }
+
+    .one h4, .two h4 {
+        margin-top: 1rem; 
+    }
+}
