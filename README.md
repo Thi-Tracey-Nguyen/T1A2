@@ -46,7 +46,7 @@ Sitemap made using Balsamiq Cloud
 ![blog post 1](docs/blog-2.png)
 
 ##### Coming Soon page to link projects.
-![coming soon](docs/get-in-touch.png)
+![coming soon](docs/coming-soon.png)
 
 
 ## Target Audience
