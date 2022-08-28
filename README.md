@@ -48,5 +48,5 @@ Sitemap made using Balsamiq Cloud
 This website is made for potential employers and recruiters in the IT field.  
 
 ## Tech Stack
-HTML5, CSS3, Netlify (deployment) and GitHub (version control).  
+HTML5, CSS4, Netlify (deployment) and GitHub (version control).  
 
