@@ -13,35 +13,39 @@ This site is responsive across multiple device widths such as smart phones, tabl
 3. Blogs: shows 5 blog "cards" styled as boxes. They were arranged using Grid in CSS. Each card had information about the blog such as category, title, author and date published.
 4. Get in touch: has linked to my social accounts (GitHub, LinkedIn, and Twitter)
 
-My favourite feature of the page is the use of Grid, it allows each "card" to be responsive to changes in the viewports without too much overridings.
+My favourite feature of the page is the use of Grid, it allows each "card" to be responsive to changes in the viewports without too much overridding.   
 
 ## Sitemap
-![sitemap](images/screenshots/Screen%20Shot%202022-08-26%20at%201.07.08%20pm.png)
+![sitemap](docs/sitemap.png)
 Sitemap made using Balsamiq Cloud
 
 ## Screenshots
 ##### Home page has information about skills, experience and link to resume.
 
-![home/landing page/about me](images/screenshots/home.png)
+![home/landing page/about me](docs/home.png)
+
+##### Resume on Google Drive
+
+![home/landing page/about me](docs/resume.png)
 
 ##### Project page with 4 made-up projects. Each project card is linked to "Coming Soon" page.
-![projects page](images/screenshots/projects.png)
+![projects page](docs/screenshots/projects.png)
 
 ##### Blogs page with 5 blogs. Each card has information such as category, title, author and date published. Blog card are linked to respective pages.
-![blogs](images/screenshots/blogs.png)
+![blogs](docs/blogs.png)
 
 ##### Get In Touch page with links to Twitter, GitHub and LinkedIn. Icons are linked to respective pages.
-![get in touch](images/screenshots/get-in-touch.png
+![get in touch](docs/get-in-touch.png
 )
 
 ##### Blog post format #1. 
-![blog post 1](images/screenshots/blog-1.png)
+![blog post 1](docs/blog-1.png)
 
 ##### Blog post format #2. 
-![blog post 1](images/screenshots/blog-2.png)
+![blog post 1](docs/blog-2.png)
 
 ##### Coming Soon page to link projects.
-![coming soon](images/screenshots/get-in-touch.png)
+![coming soon](docs/get-in-touch.png)
 
 
 ## Target Audience
@@ -49,4 +53,3 @@ This website is made for potential employers and recruiters in the IT field.
 
 ## Tech Stack
 HTML5, CSS4, Netlify (deployment) and GitHub (version control).  
-
